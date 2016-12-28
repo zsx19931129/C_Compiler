@@ -13,6 +13,10 @@
 		ED42A1C31E138E8A00FF5560 /* set.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1C21E138E8A00FF5560 /* set.c */; };
 		ED42A1C51E13904F00FF5560 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1C41E13904F00FF5560 /* map.c */; };
 		ED42A1C71E13986B00FF5560 /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1C61E13986B00FF5560 /* dict.c */; };
+		ED42A1C91E139D0100FF5560 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1C81E139D0100FF5560 /* buffer.c */; };
+		ED42A1CB1E13A14A00FF5560 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1CA1E13A14A00FF5560 /* error.c */; };
+		ED42A1CD1E13A1DC00FF5560 /* path.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1CC1E13A1DC00FF5560 /* path.c */; };
+		ED42A1CF1E13A88700FF5560 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1CE1E13A88700FF5560 /* debug.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +49,10 @@
 		ED42A1C21E138E8A00FF5560 /* set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = set.c; sourceTree = "<group>"; };
 		ED42A1C41E13904F00FF5560 /* map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = map.c; sourceTree = "<group>"; };
 		ED42A1C61E13986B00FF5560 /* dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dict.c; sourceTree = "<group>"; };
+		ED42A1C81E139D0100FF5560 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		ED42A1CA1E13A14A00FF5560 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		ED42A1CC1E13A1DC00FF5560 /* path.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = path.c; sourceTree = "<group>"; };
+		ED42A1CE1E13A88700FF5560 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,10 @@
 				ED42A1C21E138E8A00FF5560 /* set.c */,
 				ED42A1C41E13904F00FF5560 /* map.c */,
 				ED42A1C61E13986B00FF5560 /* dict.c */,
+				ED42A1C81E139D0100FF5560 /* buffer.c */,
+				ED42A1CA1E13A14A00FF5560 /* error.c */,
+				ED42A1CC1E13A1DC00FF5560 /* path.c */,
+				ED42A1CE1E13A88700FF5560 /* debug.c */,
 			);
 			path = C_Compiler;
 			sourceTree = "<group>";
@@ -161,7 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED42A1C91E139D0100FF5560 /* buffer.c in Sources */,
+				ED42A1CF1E13A88700FF5560 /* debug.c in Sources */,
+				ED42A1CD1E13A1DC00FF5560 /* path.c in Sources */,
 				ED42A1B31E13630E00FF5560 /* vector.c in Sources */,
+				ED42A1CB1E13A14A00FF5560 /* error.c in Sources */,
 				ED42A1AA1E135DE200FF5560 /* main.c in Sources */,
 				ED42A1C51E13904F00FF5560 /* map.c in Sources */,
 				ED42A1C71E13986B00FF5560 /* dict.c in Sources */,
