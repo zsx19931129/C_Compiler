@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ED42A1AA1E135DE200FF5560 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1A91E135DE200FF5560 /* main.c */; };
+		ED42A1B31E13630E00FF5560 /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1B21E13630E00FF5560 /* vector.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,15 @@
 		ED42A1A61E135DE200FF5560 /* C_Compiler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Compiler; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED42A1A91E135DE200FF5560 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		ED42A1B01E135F5000FF5560 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		ED42A1B21E13630E00FF5560 /* vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vector.c; sourceTree = "<group>"; };
+		ED42A1B71E13643D00FF5560 /* C_Compiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C_Compiler.h; path = include/C_Compiler.h; sourceTree = "<group>"; };
+		ED42A1B81E13651400FF5560 /* float.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = float.h; path = include/float.h; sourceTree = "<group>"; };
+		ED42A1B91E1365D900FF5560 /* iso646.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iso646.h; path = include/iso646.h; sourceTree = "<group>"; };
+		ED42A1BA1E13660900FF5560 /* stdalign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stdalign.h; path = include/stdalign.h; sourceTree = "<group>"; };
+		ED42A1BB1E13665900FF5560 /* stdarg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stdarg.h; path = include/stdarg.h; sourceTree = "<group>"; };
+		ED42A1BC1E1366CB00FF5560 /* stdbool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stdbool.h; path = include/stdbool.h; sourceTree = "<group>"; };
+		ED42A1BD1E1366F700FF5560 /* stddef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stddef.h; path = include/stddef.h; sourceTree = "<group>"; };
+		ED42A1BE1E13671400FF5560 /* stdnoreturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stdnoreturn.h; path = include/stdnoreturn.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +69,26 @@
 		ED42A1A81E135DE200FF5560 /* C_Compiler */ = {
 			isa = PBXGroup;
 			children = (
+				ED42A1B61E1363D600FF5560 /* include */,
 				ED42A1A91E135DE200FF5560 /* main.c */,
+				ED42A1B21E13630E00FF5560 /* vector.c */,
 			);
 			path = C_Compiler;
+			sourceTree = "<group>";
+		};
+		ED42A1B61E1363D600FF5560 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				ED42A1B71E13643D00FF5560 /* C_Compiler.h */,
+				ED42A1B81E13651400FF5560 /* float.h */,
+				ED42A1B91E1365D900FF5560 /* iso646.h */,
+				ED42A1BA1E13660900FF5560 /* stdalign.h */,
+				ED42A1BB1E13665900FF5560 /* stdarg.h */,
+				ED42A1BC1E1366CB00FF5560 /* stdbool.h */,
+				ED42A1BD1E1366F700FF5560 /* stddef.h */,
+				ED42A1BE1E13671400FF5560 /* stdnoreturn.h */,
+			);
+			name = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED42A1B31E13630E00FF5560 /* vector.c in Sources */,
 				ED42A1AA1E135DE200FF5560 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

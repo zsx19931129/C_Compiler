@@ -7,9 +7,15 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
+
+static void deleteTempFiles(){
+    for(int i=0;i<)
+}
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    //unbuffer stdout
+    setbuf(stdout, NULL);
+    if (atexit())
     return 0;
 }
