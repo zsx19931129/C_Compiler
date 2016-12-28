@@ -12,6 +12,7 @@
 		ED42A1C11E13831700FF5560 /* keyword.inc in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1C01E13831700FF5560 /* keyword.inc */; };
 		ED42A1C31E138E8A00FF5560 /* set.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1C21E138E8A00FF5560 /* set.c */; };
 		ED42A1C51E13904F00FF5560 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1C41E13904F00FF5560 /* map.c */; };
+		ED42A1C71E13986B00FF5560 /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1C61E13986B00FF5560 /* dict.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		ED42A1C01E13831700FF5560 /* keyword.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = keyword.inc; sourceTree = "<group>"; };
 		ED42A1C21E138E8A00FF5560 /* set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = set.c; sourceTree = "<group>"; };
 		ED42A1C41E13904F00FF5560 /* map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = map.c; sourceTree = "<group>"; };
+		ED42A1C61E13986B00FF5560 /* dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dict.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				ED42A1C01E13831700FF5560 /* keyword.inc */,
 				ED42A1C21E138E8A00FF5560 /* set.c */,
 				ED42A1C41E13904F00FF5560 /* map.c */,
+				ED42A1C61E13986B00FF5560 /* dict.c */,
 			);
 			path = C_Compiler;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				ED42A1B31E13630E00FF5560 /* vector.c in Sources */,
 				ED42A1AA1E135DE200FF5560 /* main.c in Sources */,
 				ED42A1C51E13904F00FF5560 /* map.c in Sources */,
+				ED42A1C71E13986B00FF5560 /* dict.c in Sources */,
 				ED42A1C31E138E8A00FF5560 /* set.c in Sources */,
 				ED42A1C11E13831700FF5560 /* keyword.inc in Sources */,
 			);
