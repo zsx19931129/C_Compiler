@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		ED42A1AA1E135DE200FF5560 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1A91E135DE200FF5560 /* main.c */; };
 		ED42A1B31E13630E00FF5560 /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1B21E13630E00FF5560 /* vector.c */; };
+		ED42A1C11E13831700FF5560 /* keyword.inc in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1C01E13831700FF5560 /* keyword.inc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,8 @@
 		ED42A1BC1E1366CB00FF5560 /* stdbool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stdbool.h; path = include/stdbool.h; sourceTree = "<group>"; };
 		ED42A1BD1E1366F700FF5560 /* stddef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stddef.h; path = include/stddef.h; sourceTree = "<group>"; };
 		ED42A1BE1E13671400FF5560 /* stdnoreturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stdnoreturn.h; path = include/stdnoreturn.h; sourceTree = "<group>"; };
+		ED42A1BF1E137EA100FF5560 /* C_Compiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C_Compiler.h; sourceTree = "<group>"; };
+		ED42A1C01E13831700FF5560 /* keyword.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = keyword.inc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				ED42A1B61E1363D600FF5560 /* include */,
 				ED42A1A91E135DE200FF5560 /* main.c */,
 				ED42A1B21E13630E00FF5560 /* vector.c */,
+				ED42A1BF1E137EA100FF5560 /* C_Compiler.h */,
+				ED42A1C01E13831700FF5560 /* keyword.inc */,
 			);
 			path = C_Compiler;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			files = (
 				ED42A1B31E13630E00FF5560 /* vector.c in Sources */,
 				ED42A1AA1E135DE200FF5560 /* main.c in Sources */,
+				ED42A1C11E13831700FF5560 /* keyword.inc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

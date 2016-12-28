@@ -427,7 +427,7 @@ void vec_set(Vector *vec, int index, void *val);
 void *vec_head(Vector *vec);
 void *vec_tail(Vector *vec);
 Vector *vec_reverse(Vector *vec);
-void *vec_body(Vector *vec);
 int vec_len(Vector *vec);
+void *vec_body(Vector *vec);
 
 #endif /* C_Compiler_h */
