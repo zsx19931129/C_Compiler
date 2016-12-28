@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		ED42A1A61E135DE200FF5560 /* C_Compiler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Compiler; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED42A1A91E135DE200FF5560 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		ED42A1B01E135F5000FF5560 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		ED42A19D1E135DE200FF5560 = {
 			isa = PBXGroup;
 			children = (
+				ED42A1B01E135F5000FF5560 /* .gitignore */,
 				ED42A1A81E135DE200FF5560 /* C_Compiler */,
 				ED42A1A71E135DE200FF5560 /* Products */,
 			);
