@@ -10,6 +10,8 @@
 		ED42A1AA1E135DE200FF5560 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1A91E135DE200FF5560 /* main.c */; };
 		ED42A1B31E13630E00FF5560 /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1B21E13630E00FF5560 /* vector.c */; };
 		ED42A1C11E13831700FF5560 /* keyword.inc in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1C01E13831700FF5560 /* keyword.inc */; };
+		ED42A1C31E138E8A00FF5560 /* set.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1C21E138E8A00FF5560 /* set.c */; };
+		ED42A1C51E13904F00FF5560 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1C41E13904F00FF5560 /* map.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +41,8 @@
 		ED42A1BE1E13671400FF5560 /* stdnoreturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stdnoreturn.h; path = include/stdnoreturn.h; sourceTree = "<group>"; };
 		ED42A1BF1E137EA100FF5560 /* C_Compiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C_Compiler.h; sourceTree = "<group>"; };
 		ED42A1C01E13831700FF5560 /* keyword.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = keyword.inc; sourceTree = "<group>"; };
+		ED42A1C21E138E8A00FF5560 /* set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = set.c; sourceTree = "<group>"; };
+		ED42A1C41E13904F00FF5560 /* map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = map.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				ED42A1B21E13630E00FF5560 /* vector.c */,
 				ED42A1BF1E137EA100FF5560 /* C_Compiler.h */,
 				ED42A1C01E13831700FF5560 /* keyword.inc */,
+				ED42A1C21E138E8A00FF5560 /* set.c */,
+				ED42A1C41E13904F00FF5560 /* map.c */,
 			);
 			path = C_Compiler;
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 			files = (
 				ED42A1B31E13630E00FF5560 /* vector.c in Sources */,
 				ED42A1AA1E135DE200FF5560 /* main.c in Sources */,
+				ED42A1C51E13904F00FF5560 /* map.c in Sources */,
+				ED42A1C31E138E8A00FF5560 /* set.c in Sources */,
 				ED42A1C11E13831700FF5560 /* keyword.inc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
