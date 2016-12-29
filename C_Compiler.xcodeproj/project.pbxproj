@@ -18,6 +18,8 @@
 		ED42A1CD1E13A1DC00FF5560 /* path.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1CC1E13A1DC00FF5560 /* path.c */; };
 		ED42A1CF1E13A88700FF5560 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1CE1E13A88700FF5560 /* debug.c */; };
 		ED42A1D11E13DBF700FF5560 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1D01E13DBF700FF5560 /* encoding.c */; };
+		ED42A1D31E13E48200FF5560 /* lex.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1D21E13E48200FF5560 /* lex.c */; };
+		ED42A1D51E13E51E00FF5560 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1D41E13E51E00FF5560 /* file.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +57,8 @@
 		ED42A1CC1E13A1DC00FF5560 /* path.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = path.c; sourceTree = "<group>"; };
 		ED42A1CE1E13A88700FF5560 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
 		ED42A1D01E13DBF700FF5560 /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
+		ED42A1D21E13E48200FF5560 /* lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lex.c; sourceTree = "<group>"; };
+		ED42A1D41E13E51E00FF5560 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				ED42A1CC1E13A1DC00FF5560 /* path.c */,
 				ED42A1CE1E13A88700FF5560 /* debug.c */,
 				ED42A1D01E13DBF700FF5560 /* encoding.c */,
+				ED42A1D21E13E48200FF5560 /* lex.c */,
+				ED42A1D41E13E51E00FF5560 /* file.c */,
 			);
 			path = C_Compiler;
 			sourceTree = "<group>";
@@ -176,9 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED42A1D51E13E51E00FF5560 /* file.c in Sources */,
 				ED42A1C91E139D0100FF5560 /* buffer.c in Sources */,
 				ED42A1CF1E13A88700FF5560 /* debug.c in Sources */,
 				ED42A1CD1E13A1DC00FF5560 /* path.c in Sources */,
+				ED42A1D31E13E48200FF5560 /* lex.c in Sources */,
 				ED42A1B31E13630E00FF5560 /* vector.c in Sources */,
 				ED42A1D11E13DBF700FF5560 /* encoding.c in Sources */,
 				ED42A1CB1E13A14A00FF5560 /* error.c in Sources */,
