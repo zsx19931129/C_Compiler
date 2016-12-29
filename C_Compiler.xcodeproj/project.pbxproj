@@ -21,6 +21,7 @@
 		ED42A1D31E13E48200FF5560 /* lex.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1D21E13E48200FF5560 /* lex.c */; };
 		ED42A1D51E13E51E00FF5560 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1D41E13E51E00FF5560 /* file.c */; };
 		ED42A1D71E15309D00FF5560 /* cpp.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1D61E15309D00FF5560 /* cpp.c */; };
+		ED42A1DA1E15422E00FF5560 /* parse.c in Sources */ = {isa = PBXBuildFile; fileRef = ED42A1D91E15422E00FF5560 /* parse.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,7 @@
 		ED42A1D21E13E48200FF5560 /* lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lex.c; sourceTree = "<group>"; };
 		ED42A1D41E13E51E00FF5560 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
 		ED42A1D61E15309D00FF5560 /* cpp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpp.c; sourceTree = "<group>"; };
+		ED42A1D91E15422E00FF5560 /* parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parse.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				ED42A1D21E13E48200FF5560 /* lex.c */,
 				ED42A1D41E13E51E00FF5560 /* file.c */,
 				ED42A1D61E15309D00FF5560 /* cpp.c */,
+				ED42A1D91E15422E00FF5560 /* parse.c */,
 			);
 			path = C_Compiler;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				ED42A1B31E13630E00FF5560 /* vector.c in Sources */,
 				ED42A1D11E13DBF700FF5560 /* encoding.c in Sources */,
 				ED42A1CB1E13A14A00FF5560 /* error.c in Sources */,
+				ED42A1DA1E15422E00FF5560 /* parse.c in Sources */,
 				ED42A1AA1E135DE200FF5560 /* main.c in Sources */,
 				ED42A1C51E13904F00FF5560 /* map.c in Sources */,
 				ED42A1C71E13986B00FF5560 /* dict.c in Sources */,
