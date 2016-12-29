@@ -17,6 +17,10 @@
 #include <stdnoreturn.h>
 #include <time.h>
 
+#ifndef BUILD_DIR
+#define BUILD_DIR ""
+#endif
+
 enum {
     TIDENT,
     TKEYWORD,
